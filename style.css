@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+#app {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#menu-list {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+#menu-list li {
+  margin-bottom: 10px;
+}
