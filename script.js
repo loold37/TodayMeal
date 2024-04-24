@@ -2,7 +2,7 @@
 
 const apiKey = 'f4bfc0c9b1924695b3c808cc031b2d26'; // 인증키 입력
 const schoolCode = '8750133'; // 행정표준코드 입력
-const today = new Date().toISOString().slice(0, 10).replace(/-/g, ''); // 오늘 날짜
+const today = new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Seoul'})).toISOString().slice(0, 10).replace(/-/g, ''); // 오늘 날짜
 
 console.log(today)
 
